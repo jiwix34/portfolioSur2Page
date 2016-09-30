@@ -1,0 +1,29 @@
+
+
+///// titre haut de page /////
+#fondtete h1{
+  color: white;
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 45px;
+  height: 50px;
+  line-height: 50px;
+}
+@media (max-width:768px){
+  #fondtete h1{
+    font-size: 40px;
+    line-height: 25px;
+    margin-top: -40px;
+
+  }
+}
+
+.entete{
+  position: relative;
+  z-index: 20;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  margin-top: -20px;
+}

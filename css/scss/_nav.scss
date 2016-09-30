@@ -1,0 +1,59 @@
+///// barre de navigation /////
+@media (min-width:768px) {
+.containernav{
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+  line-height: 60px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.groupelistenav{
+  display:flex;
+  justify-content: center;
+  margin-left: -60px;
+}
+
+.listenav{
+  color: white;
+  list-style: none;
+  font-size: 24px;
+  font-family: hacked;
+  margin-left: 20px;
+}
+.listenav a{
+  text-decoration: none;
+  color: white;
+  text-shadow: black 3px 3px 6px;
+  transition: 1s;
+}
+.listenav a:hover{
+  color: grey;
+  transition: 1s;
+
+}
+///// deux premier lien qui sont tournee /////
+.listenav1{
+  transform: skewY(-10deg);
+  transition: 0.5s;
+}
+///// deux dernier lien qui sont tournee /////
+
+.listenav2{
+  transform: skewY(10deg);
+  transition: 0.5s;
+}
+
+///// au passage de la souri le menu se redresse /////
+.listenav1:hover{
+  transform: skewY(0deg);
+  transition: 0.5s;
+}
+.listenav2:hover{
+  transform: skewY(-0deg);
+  transition: 0.5s;
+}
+}
+///// fin de barre de nav /////

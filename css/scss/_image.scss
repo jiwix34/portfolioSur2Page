@@ -1,0 +1,22 @@
+///// la ou et placer mon image /////
+.sectionimage{
+  margin-top: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+///// mon image fixé sur la page /////
+#image1{
+  background-image: url("./img/test.jpg");
+  display: none;
+}
+
+///// en dessous la resolution l'image ne s'affiche pas /////
+@media (min-width:768px) {
+  #image1{
+    display: block;
+  }
+
+}

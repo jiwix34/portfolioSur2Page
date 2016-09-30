@@ -1,0 +1,73 @@
+///// fond noir du footer /////
+footer{
+  background-color: black;
+}
+
+button{
+  color: black;
+  background-color: white;
+}
+
+.buton{
+margin-bottom: 20px;
+
+}
+.textecontact{
+color: white;
+padding-top: 30px;
+}
+
+///// div qui englobe lien /////
+.contact{
+padding-top: 30px;
+text-align: center;
+}
+
+.liencontact{
+  list-style: none;
+  display: inline-block;
+  transition: 2s;
+}
+
+.listelien{
+  margin-left: -35px;
+  margin-top: 50px;
+}
+@media (max-width:768px){
+
+.photofooter{
+    width: 50px;
+    transition: 2s;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+}
+
+
+@media (min-width:768px){
+.liencontactreseau{
+  transition: 1s;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 100%;
+
+}
+.liencontactreseau:hover{
+  transition: 1s;
+}
+
+.couleur1contactreseau:hover{
+  background-color: #3b5998;
+}
+
+.couleur2contactreseau:hover{
+  background-color: #1c9ceb;
+}
+
+.couleur3contactreseau:hover{
+  background-color: #333333;
+}
+.couleur4contactreseau:hover{
+  background-color: #d44937;
+}
+}

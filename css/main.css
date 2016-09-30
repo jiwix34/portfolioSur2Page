@@ -1,0 +1,199 @@
+#fondtete h1 {
+  color: white;
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 45px;
+  height: 50px;
+  line-height: 50px; }
+
+@media (max-width: 768px) {
+  #fondtete h1 {
+    font-size: 40px;
+    line-height: 25px;
+    margin-top: -40px; } }
+.entete {
+  position: relative;
+  z-index: 20;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  margin-top: -20px; }
+
+@media (min-width: 768px) {
+  .containernav {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    line-height: 60px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; }
+
+  .groupelistenav {
+    display: flex;
+    justify-content: center;
+    margin-left: -60px; }
+
+  .listenav {
+    color: white;
+    list-style: none;
+    font-size: 24px;
+    font-family: hacked;
+    margin-left: 20px; }
+
+  .listenav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 3px 3px 6px;
+    transition: 1s; }
+
+  .listenav a:hover {
+    color: grey;
+    transition: 1s; }
+
+  .listenav1 {
+    transform: skewY(-10deg);
+    transition: 0.5s; }
+
+  .listenav2 {
+    transform: skewY(10deg);
+    transition: 0.5s; }
+
+  .listenav1:hover {
+    transform: skewY(0deg);
+    transition: 0.5s; }
+
+  .listenav2:hover {
+    transform: skewY(0deg);
+    transition: 0.5s; } }
+footer {
+  background-color: black; }
+
+button {
+  color: black;
+  background-color: white; }
+
+.buton {
+  margin-bottom: 20px; }
+
+.textecontact {
+  color: white;
+  padding-top: 30px; }
+
+.contact {
+  padding-top: 30px;
+  text-align: center; }
+
+.liencontact {
+  list-style: none;
+  display: inline-block;
+  transition: 2s; }
+
+.listelien {
+  margin-left: -35px;
+  margin-top: 50px; }
+
+@media (max-width: 768px) {
+  .photofooter {
+    width: 50px;
+    transition: 2s;
+    margin-left: 15px;
+    margin-right: 15px; } }
+@media (min-width: 768px) {
+  .liencontactreseau {
+    transition: 1s;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 100%; }
+
+  .liencontactreseau:hover {
+    transition: 1s; }
+
+  .couleur1contactreseau:hover {
+    background-color: #3b5998; }
+
+  .couleur2contactreseau:hover {
+    background-color: #1c9ceb; }
+
+  .couleur3contactreseau:hover {
+    background-color: #333333; }
+
+  .couleur4contactreseau:hover {
+    background-color: #d44937; } }
+body {
+  background-color: white; }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  color: black;
+  font-family: 'Patua One', cursive; }
+
+table {
+  margin: auto; }
+
+td {
+  border: 1px solid black;
+  padding: 5px; }
+
+.toutesection {
+  margin-bottom: 30px;
+  padding-top: 80px; }
+
+article {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: black;
+  font-family: 'Patua One', cursive;
+  font-size: 18px;
+  text-align: justify; }
+
+footer article {
+  text-align: center; }
+
+@media (max-width: 768px) {
+  article {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; } }
+.sectionimage {
+  margin-top: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px; }
+
+#image1 {
+  background-image: url("./img/test.jpg");
+  display: none; }
+
+@media (min-width: 768px) {
+  #image1 {
+    display: block; } }
+@font-face {
+  font-family: 'hacked';
+  src: url("./police/hacked.ttf"); }
+.champMessage {
+  resize: none; }
+
+.container {
+  margin-top: 50px; }
+
+textarea.form-control {
+  height: 200px; }
+
+label {
+  color: white;
+  display: flex;
+  justify-content: center; }
+
+.btn-primary {
+  margin-bottom: 50px;
+  margin-top: 25px; }
+
+/*# sourceMappingURL=main.css.map */
